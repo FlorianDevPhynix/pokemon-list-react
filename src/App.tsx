@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PokemonListView from './PokemonListView';
+import PokemonListView from './components/PokemonListView';
 
 function App() {
 	return (
