@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react"
 
-import { getListAsync, getTypeListAsync, IPokemon, IPokemonType } from "./PokemonAPIAccess";
+import { getListAsync, getTypeListAsync, IPokemon, IPokemonType } from "./services/PokemonAPIAccess";
 
 import FilterButton from "./FilterButton";
 
@@ -55,7 +55,7 @@ export default function PokemonListView()
 	const [activeFilters, setActiveFilters] = useState<string[]>( new Array<string>() );
 
 	const [PokemonListe, setPokemonListe] = useState<IPokemon[]>( new Array<IPokemon>( 150 ) );
-	const [filteredList, setFilteredList] = useState<IPokemon[]>( new Array<IPokemon>( 150 ) );
+	//const [filteredList, setFilteredList] = useState<IPokemon[]>( new Array<IPokemon>( 150 ) );
 
 	useEffect( () => {
 
