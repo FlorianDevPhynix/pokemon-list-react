@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+A React App that uses pokeapi.co to show a list of Pokemons
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
